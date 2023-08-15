@@ -24,7 +24,6 @@
     "prepare": "yarn build",
     "appium": "appium",
     "test:windows": "yarn jest --setupFiles=./jest-setups/jest.setup.js",
-    "add:macos": "yarn add -D react-native-macos@0.71.32"
   },
   "rn-docs": {
     "title": "Webview",
@@ -61,7 +60,7 @@
     "metro-react-native-babel-preset": "0.73.10",
     "react": "18.2.0",
     "react-native": "0.71.12",
-    "react-native-macos": "^0.71.0",
+    "react-native-macos": "0.71.32",
     "react-native-test-app": "2.5.15",
     "react-native-windows": "0.71.29",
     "selenium-appium": "1.0.2",
