@@ -23,7 +23,7 @@
     "build": "yarn tsc",
     "prepare": "yarn build",
     "appium": "appium",
-    "test:windows": "yarn jest --setupFiles=./jest-setups/jest.setup.js",
+    "test:windows": "yarn jest --setupFiles=./jest-setups/jest.setup.js"
   },
   "rn-docs": {
     "title": "Webview",
@@ -38,8 +38,9 @@
     "invariant": "2.2.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/runtime": "^7.0.0",
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
     "@semantic-release/git": "7.0.16",
     "@types/invariant": "^2.2.30",
     "@types/jest": "^29.4.0",
